@@ -65,10 +65,80 @@
                 </div>
               </div>
             </nav>                 <!--Fim cabecalho-->
+
+            <div class="container mt-3">  <!--Inicio Carousel-->
+              <div id="carouselMain" class="carousel slide carousel-light" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"></button>
+                  </div>
+                  <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="3000">
+                          <img src="/img/slides/slide01.jpg" class="d-none d-md-block w-100" alt="">
+                          <img src="/img/slides/slide01small.jpg" class="d-block d-md-none  w-100" alt="">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                          <img src="/img/slides/slide01.jpg" class="d-none d-md-block w-100" alt="">
+                          <img src="/img/slides/slide01small.jpg" class="d-block d-md-none  w-100" alt="">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="3000">
+                          <img src="/img/slides/slide01.jpg" class="d-none d-md-block w-100" alt="">
+                          <img src="/img/slides/slide01small.jpg" class="d-block d-md-none  w-100" alt="">
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                      <span class="visually-hidden">Próximo</span>
+                  </button>
+              </div>
+              <hr class="mt-3">
+          </div>                       <!--Fim Carousel-->
               
               <main class="flex-fill">
                 <div class="container">
-
+                  <div class="row">
+                    <div class="col-12 col-md-5">
+                      <form class="justify-content-center justify-content-md-start
+                       mb-3 mb-md-0">
+                          <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" placeholder="Digite aqui o que procura" >
+                            <button class="btn btn-success">Buscar</button>
+                          </div>
+                      </form>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                          <form class="d-inline-block">
+                            <select class="form-select form-select-sm">
+                                <option>Ordenar pelo nome</option>
+                                <option>Ordenar pelo menor preço</option>
+                                <option>Ordenar pelo maior preço</option>
+                            </select>
+                          </form>
+                          <nav class="d-inline-block me-3">
+                            <ul class="pagination pagination-sm my-0">
+                              <li class="page-item">
+                                <a class="page-link" href="#" >1</a>
+                              </li>
+                              <li class="page-item " href="#">
+                                <a class="page-link" >2</a>
+                              </li>
+                              <li class="page-item" href="#">
+                                <a class="page-link" >3</a>
+                              </li>
+                              <li class="page-item" href="#">
+                                <a class="page-link" >4</a>
+                              </li>
+                            </ul>
+                          </nav>
+                        </div>
+                    </div>
+                  </div>
                 </div>
               </main>
 
@@ -91,17 +161,17 @@
                     Quem Somos
                   </a><br>
                   <a href="/trocas.html" class="text-decoration-none text-light">
-                    Trocaas e Devoluções
+                    Trocas e Devoluções
                   </a><br>
                 </div>
                 <div class="col-12 col-md-4 text-center">
-                  <a href="/contato.html" class="text-decoration-noen text-light">
+                  <a href="/contato.html" class="text-decoration-none text-light">
                     Contato pelo Site
                   </a><br>
-                  E-mail: <a href="jose:email@dominio.com" class="text-decoration-noen text-light">
+                  E-mail: <a href="jose:email@dominio.com" class="text-decoration-none text-light">
                     email@dominio.com
                   </a><br>
-                  Telefone: <a href="jose:email@dominio.com" class="text-decoration-noen text-light">
+                  Telefone: <a href="jose:email@dominio.com" class="text-decoration-none text-light">
                     (88) 8888-0000
                   </a>
                 </div>
