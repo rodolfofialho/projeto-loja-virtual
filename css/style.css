@@ -6,3 +6,40 @@ body{
     min-height: 100vh;
 }
 
+p.truncar {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 469px){
+    .mt-xs-3 {
+        margin-top: 1rem;
+    }
+}
+
+
+label:hover .text-secondary{
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+label .text-secondary{
+    transition: color 0.2s ease;
+
+}
+
+.btn-check:checked+.btn-outline-success .text-secondary,
+.btn-check:active+.btn-outline-success .text-secondary,
+.btn-check:hover+.btn-outline-success .text-secondary{
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+.flex-even{
+    flex: 1;
+    min-width: ]300px;
+}
+
