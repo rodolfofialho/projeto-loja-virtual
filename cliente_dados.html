@@ -25,7 +25,7 @@
 
       <link rel="stylesheet" type="text/css" href="/css/style.css">
       
-      <title>Quitanda virtual :: Quem Somos</title>
+      <title>Quitanda virtual :: Dados do Cliente</title>
 
   </head>
   <body>
@@ -49,10 +49,10 @@
                   <div class="align-self-end">
                     <ul class="navbar-nav">
                       <li class="navbar-item">
-                          <a href="/cadastro.html" class="nav-link text-white">Quero me cadastrar</a>
+                          <a href="/cadastro.html" class="nav-link text-white">Logado como<b>João Miguel</b></a>
                       </li>
                       <li class="navbar-item">
-                        <a href="/login.html" class="nav-link text-white">Entrar</a>
+                        <a href="/login.html" class="nav-link text-white">Sair</a>
                     </li>
                     <li class="navbar-item">
                       <span class="badge rounded-pill bg-light text-dark position-absolute ms-4 mt-0" title="5produto(s) no carrinho"><small>5</small></span>
@@ -68,19 +68,53 @@
               
               <main class="flex-fill">
                 <div class="container">
-                  <h1 class="mt-5">Quem Somos</h1>
-                  <hr>
-                  <p>
-                    Quitanda Online é uma loja virtual (e-commerce) fictícia criada como estudo de caso para o curso 
-                    "Desenvolvimento de uma Loja Virtual com Bootstrap 5"
-                  </p>
-                  <p>
-                    Trabalhamos com frutas e legumes selecionados e direto do produtor
-                    Para sua comodidade estamos fazendo entrega a domicílio
-                  </p>
-                  <p>
-                    Agradecemos pela confiança em nosso serviços.
-                  </p>
+                    <h1 class="mt-5">Minha Conta</h1>
+                      <div class="row gx-3">
+                          <div class="col-4">
+                              <div class="list-group">
+                                  <a href="/cliente_dados.html" class="list-group-item list-group-item-action  bg-success text-light">
+                                    <i class="bi-person fs-6"></i>Dados Pessoais
+                                  </a>
+                                  <a href="/cliente_contato.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-mailbox fs-6 p-2"></i>Contato
+                                  </a>
+                                  <a href="/cliente_endereco.html" class="list-group-item list-group-item-action ">
+                                    <i class="bi-house-door fs-6 p-2"></i>Endereço
+                                  </a>
+                                  <a href="/cliente_favoritos.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-heart fs-6 p-2"></i>Favoritos
+                                  </a>
+                                  <a href="/cliente_pedido.html" class="list-group-item list-group-item-action ">
+                                    <i class="bi-truck fs-6 p-2"></i>Pedidos
+                                  </a>
+                                  <a href="/cliente_senha.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-lock fs-6 p-2"></i>Alterar Senha
+                                  </a>
+                                  <a href="/index.html" class="list-group-item list-group-item-action">
+                                    <i class="bi-door-open fs-6 p-2"></i>Sair
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-8">
+                              <form action="">
+                                <div class="form-floating mb-3">
+                                    <input class="form-control" type="text" id="textNome"
+                                      placeholder=" "/>
+                                     <label for="txtNome">Nome</label> 
+                                </div>
+                                <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                  <input class="form-control" type="text" id="txtCPF"
+                                    placeholder=" "/>
+                                   <label for="txtCPF">CPF</label> 
+                              </div>
+                              <div class="form-floating mb-3 col-md-6 col-xl-4">
+                                <input class="form-control" type="date" id="txtDateAviver"
+                                  placeholder=" "/>
+                                 <label for="txtCPF">Data de Nascimento</label> 
+                            </div>
+                              </form>
+                          </div>
+                      </div>
                 </div>
               </main>
 
@@ -110,10 +144,10 @@
                   <a href="/contato.html" class="text-decoration-none text-light">
                     Contato pelo Site
                   </a><br>
-                  E-mail: <a href="jose:email@dominio.com" class="text-decoration-none text-light">
+                  E-mail: <a href="jose:email@dominio.com" class="text-decoration-noen text-light">
                     email@dominio.com
                   </a><br>
-                  Telefone: <a href="jose:email@dominio.com" class="text-decoration-none text-light">
+                  Telefone: <a href="jose:email@dominio.com" class="text-decoration-noen text-light">
                     (88) 8888-0000
                   </a>
                 </div>
